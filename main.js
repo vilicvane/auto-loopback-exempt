@@ -65,9 +65,9 @@ async function exempt(packageName) {
   return new Promise((resolve, reject) => {
     cp.on('error', reject).on('exit', code => {
       if (code) {
-        console.log(`Error exempting "${packageName}", exit code ${code}.`);
+        console.info(`Error exempting "${packageName}", exit code ${code}.`);
       } else {
-        console.log(`Successfully exempted "${packageName}".`);
+        console.info(`Successfully exempted "${packageName}".`);
       }
 
       resolve();
