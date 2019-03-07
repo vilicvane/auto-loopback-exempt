@@ -1,0 +1,14 @@
+{
+  "name": "auto-loopback-exempt",
+  "version": "0.1.0",
+  "author": "vilicvane <vilicvane@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js",
+    "postinstall": "winser --install --autostart --confirmation --silent --displayname \"Auto Loopback Exempt\" --env LOCALAPPDATA=%LOCALAPPDATA%",
+    "preuninstall": "winser --stop --remove --silent"
+  },
+  "dependencies": {
+    "winser": "^1.0.3"
+  }
+}
