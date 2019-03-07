@@ -12,13 +12,15 @@
   ],
   "scripts": {
     "start": "node main.js",
-    "postinstall": "node ../winser/bin/winser --install --autostart --silent --displayname \"Auto Loopback Exempt\" --env LOCALAPPDATA=%LOCALAPPDATA%",
-    "preuninstall": "node ../winser/bin/winser --stop --remove --silent"
+    "postinstall": "node install.js",
+    "preuninstall": "node uninstall.js"
   },
   "files": [
     "*.js"
   ],
   "dependencies": {
+    "npm-which": "^3.0.1",
+    "villa": "^0.3.1",
     "winser": "^1.0.3"
   }
 }
