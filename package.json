@@ -3,11 +3,21 @@
   "version": "0.1.0",
   "author": "vilicvane <vilicvane@live.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilic/auto-loopback-exempt.git"
+  },
+  "os": [
+    "win32"
+  ],
   "scripts": {
     "start": "node main.js",
-    "postinstall": "winser --install --autostart --confirmation --silent --displayname \"Auto Loopback Exempt\" --env LOCALAPPDATA=%LOCALAPPDATA%",
-    "preuninstall": "winser --stop --remove --silent"
+    "postinstall": "node node_modules/winser/bin/winser --install --autostart --confirmation --silent --displayname \"Auto Loopback Exempt\" --env LOCALAPPDATA=%LOCALAPPDATA%",
+    "preuninstall": "node node_modules/winser/bin/winser --stop --remove --silent"
   },
+  "files": [
+    "*.js"
+  ],
   "dependencies": {
     "winser": "^1.0.3"
   }
