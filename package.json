@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "start": "node main.js",
-    "postinstall": "node ../winser/bin/winser --install --autostart --confirmation --silent --displayname \"Auto Loopback Exempt\" --env LOCALAPPDATA=%LOCALAPPDATA%",
+    "postinstall": "node ../winser/bin/winser --install --autostart --silent --displayname \"Auto Loopback Exempt\" --env LOCALAPPDATA=%LOCALAPPDATA%",
     "preuninstall": "node ../winser/bin/winser --stop --remove --silent"
   },
   "files": [
