@@ -1,5 +1,7 @@
 {
   "name": "auto-loopback-exempt",
+  "displayName": "Auto Loopback Exempt",
+  "description": "Automatically exempt loopback for all and newly added applications.",
   "version": "0.1.6",
   "author": "vilicvane <vilicvane@live.com>",
   "license": "MIT",
@@ -19,8 +21,6 @@
     "*.js"
   ],
   "dependencies": {
-    "npm-which": "^3.0.1",
-    "villa": "^0.3.1",
-    "winser": "^1.0.3"
+    "is-admin": "^2.1.1"
   }
 }
