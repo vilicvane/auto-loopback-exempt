@@ -44,6 +44,7 @@ main(async () => {
     `AppEnvironmentExtra`,
     `LOCALAPPDATA=${process.env.LOCALAPPDATA}`,
   );
+  nssm('set', SERVICE_NAME, 'AppDirectory', __dirname);
   nssm('set', SERVICE_NAME, 'DisplayName', SERVICE_DISPLAY_NAME);
   nssm('set', SERVICE_NAME, 'Description', SERVICE_DESCRIPTION);
 
