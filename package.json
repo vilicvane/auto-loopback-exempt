@@ -18,7 +18,7 @@
     "preuninstall": "node uninstall.js"
   },
   "files": [
-    "*.js"
+    "**/*.js"
   ],
   "dependencies": {
     "is-admin": "^2.1.1"
