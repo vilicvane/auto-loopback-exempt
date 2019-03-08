@@ -12,12 +12,15 @@
   "os": [
     "win32"
   ],
+  "cpu": [
+    "x64"
+  ],
   "scripts": {
-    "start": "node main.js",
     "postinstall": "node install.js",
     "preuninstall": "node uninstall.js"
   },
   "files": [
+    "bin",
     "**/*.js"
   ],
   "dependencies": {
