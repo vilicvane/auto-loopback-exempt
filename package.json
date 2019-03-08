@@ -2,7 +2,7 @@
   "name": "auto-loopback-exempt",
   "displayName": "Auto Loopback Exempt",
   "description": "Automatically exempt loopback for all and newly added applications.",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "vilicvane <vilicvane@live.com>",
   "license": "MIT",
   "repository": {
