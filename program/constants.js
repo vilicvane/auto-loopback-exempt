@@ -1,6 +1,6 @@
 const Path = require('path');
 
-const {name, displayName, description} = require('./package');
+const {name, displayName, description} = require('../package');
 
 exports.SERVICE_NAME = name;
 exports.SERVICE_DISPLAY_NAME = displayName;

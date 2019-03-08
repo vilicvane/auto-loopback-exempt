@@ -16,12 +16,12 @@
     "x64"
   ],
   "scripts": {
-    "postinstall": "node install.js",
-    "preuninstall": "node uninstall.js"
+    "postinstall": "node program/install.js",
+    "preuninstall": "node program/uninstall.js"
   },
   "files": [
     "bin",
-    "**/*.js"
+    "program/**/*.js"
   ],
   "dependencies": {
     "is-admin": "^2.1.1"
