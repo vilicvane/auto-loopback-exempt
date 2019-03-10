@@ -24,6 +24,11 @@ execa@^0.6.1:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+extendable-error@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/extendable-error/-/extendable-error-0.1.5.tgz#122308a7097bc89a263b2c4fbf089c78140e3b6d"
+  integrity sha1-EiMIpwl7yJomOyxPvwiceBQOO20=
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -53,6 +58,13 @@ lru-cache@^4.0.1:
   dependencies:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
+
+main-function@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/main-function/-/main-function-0.1.2.tgz#4cf4a784dc740247410b9c59353c980fff9ad54d"
+  integrity sha512-a6EED3lRyL9ISMKNTlx4yiNq14eT8j2VAP7SkipKb1s7UiRb5GRNPIIpK1GU51ZdNEEuD24goPGM7QKWAU1Afw==
+  dependencies:
+    extendable-error "^0.1.5"
 
 npm-run-path@^2.0.0:
   version "2.0.2"

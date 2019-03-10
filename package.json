@@ -24,6 +24,7 @@
     "program/**/*.js"
   ],
   "dependencies": {
-    "is-admin": "^2.1.1"
+    "is-admin": "^2.1.1",
+    "main-function": "^0.1.2"
   }
 }

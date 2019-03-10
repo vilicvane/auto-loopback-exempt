@@ -1,4 +1,5 @@
 const isAdmin = require('is-admin');
+const {main} = require('main-function');
 
 const {
   SERVICE_NAME,
@@ -8,7 +9,6 @@ const {
   SERVICE_SCRIPT,
 } = require('./constants');
 const {nssm} = require('./nssm');
-const {main} = require('./utils/main');
 
 main(async () => {
   let beingAdmin = await isAdmin();
